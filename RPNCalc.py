@@ -96,7 +96,7 @@ button_down.place(relx = 0.7 , rely = 0.5, relheight = 0.3, relwidth = 0.2)
 
 
 #Number Buttons
-button1 = tk.Button(frame2, text = '1', bd = 3, command = lambda: btn_click('1'))
+button1 = tk.Button(frame2, text = '1', bd = 3,command = lambda: btn_click('1'))
 button2 = tk.Button(frame2, text = '2', bd = 3,command = lambda: btn_click('2'))
 button3 = tk.Button(frame2, text = '3', bd = 3,command = lambda: btn_click('3'))
 button4 = tk.Button(frame2, text = '4', bd = 3,command = lambda: btn_click('4'))
@@ -106,7 +106,7 @@ button7 = tk.Button(frame2, text = '7', bd = 3,command = lambda: btn_click('7'))
 button8 = tk.Button(frame2, text = '8', bd = 3,command = lambda: btn_click('8'))
 button9 = tk.Button(frame2, text = '9', bd = 3,command = lambda: btn_click('9'))
 button0 = tk.Button(frame2, text = '0', bd = 3,command = lambda: btn_click('0'))
-
+buttonDot = tk.Button(frame2, text = '.', bd = 3, command = lambda: btn_click('.'), bg = '#68BCFF')
 
 #Button Placement
 button1.place(relx = 0, rely = 0, relwidth = 0.3, relheight = 0.2)
@@ -119,7 +119,7 @@ button7.place(relx = 0, rely = .4, relwidth = 0.3, relheight = 0.2)
 button8.place(relx = 0.3, rely = .4, relwidth = 0.3, relheight = 0.2)
 button9.place(relx = 0.6, rely = 0.4, relwidth = 0.3, relheight = 0.2)
 button0.place(relx = 0.3, rely = .6, relwidth = 0.3, relheight = 0.2)
-
+buttonDot.place(relx = .9, rely = 0.4, relwidth = 0.1, relheight = 0.2)
 
 #Operation Buttons
 button_add = tk.Button(frame2, text = '+', bd = 3, command = lambda: operation('+'))
